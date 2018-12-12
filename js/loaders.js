@@ -7,6 +7,7 @@ export function loadImage(url) {
         image.addEventListener('load', () => {
             resolve(image);
         });
+        console.log(url);
         image.src = url;
     });
 }
