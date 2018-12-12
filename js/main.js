@@ -21,7 +21,7 @@ function createPlayerEnv(playerEntity) {
 }
 
 const timer = new Timer();
-const winSound = new Audio('../../sounds/success.mp3');
+const winSound = new Audio('sounds/success.mp3');
 winSound.volume = 0.5;
 
 async function main(canvas) {
