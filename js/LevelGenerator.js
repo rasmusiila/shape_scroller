@@ -71,7 +71,7 @@ function addWoodToLevel(levelSpec, woodTiles) {
 }
 
 export default function generateLevel() {
-    return loadJson(`/levels/base.json`)
+    return loadJson(`levels/base.json`)
         .then(levelSpec => {
             const woodTiles = generateWoodTiles();
             addWoodToLevel(levelSpec, woodTiles);
