@@ -1,0 +1,92 @@
+{
+  "imageURL": "/img/help.png",
+  "tileW": 16,
+  "tileH": 16,
+
+  "tiles": [
+    {
+      "name": "down-arrow",
+      "index": [0, 0]
+    },
+    {
+      "name": "up-arrow",
+      "index": [3, 1]
+    },
+    {
+      "name": "left-arrow",
+      "index": [1, 1]
+    },
+    {
+      "name": "right-arrow",
+      "index": [2, 1]
+    },
+    {
+      "name": "down-halo-arrow",
+      "index": [1, 0]
+    },
+    {
+      "name": "up-halo-arrow",
+      "index": [0, 1]
+    },
+    {
+      "name": "left-halo-arrow",
+      "index": [2, 0]
+    },
+    {
+      "name": "right-halo-arrow",
+      "index": [3, 0]
+    },
+    {
+      "name": "red",
+      "index": [4, 0]
+    },
+    {
+      "name": "green",
+      "index": [2, 3]
+    },
+    {
+      "name": "blue",
+      "index": [0, 2]
+    },
+    {
+      "name": "red-halo",
+      "index": [4, 1]
+    },
+    {
+      "name": "green-halo",
+      "index": [3, 3]
+    },
+    {
+      "name": "blue-halo",
+      "index": [1, 2]
+    },
+    {
+      "name": "cloud",
+      "index": [0, 3]
+    },
+    {
+      "name": "square",
+      "index": [4, 2]
+    },
+    {
+      "name": "circle",
+      "index": [2, 2]
+    },
+    {
+      "name": "cloud-halo",
+      "index": [1, 3]
+    },
+    {
+      "name": "square-halo",
+      "index": [4, 3]
+    },
+    {
+      "name": "circle-halo",
+      "index": [3, 2]
+    }
+  ],
+
+  "animations": [
+
+  ]
+}

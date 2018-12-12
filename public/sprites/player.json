@@ -1,0 +1,565 @@
+{
+  "imageURL": "/img/spritesheet.png",
+
+  "frames": [
+    {
+      "name": "fly-1",
+      "rect": [224, 64, 32, 32]
+    },
+    {
+      "name": "fly-2",
+      "rect": [224, 96, 32, 32]
+    },
+    {
+      "name": "fly-3",
+      "rect": [224, 128, 32, 32]
+    },
+    {
+      "name": "ascend-1",
+      "rect": [224, 160, 32, 32]
+    },
+    {
+      "name": "ascend-2",
+      "rect": [224, 192, 32, 32]
+    },
+    {
+      "name": "ascend-3",
+      "rect": [0, 224, 32, 32]
+    },
+    {
+      "name": "descend-1",
+      "rect": [192, 192, 32, 32]
+    },
+    {
+      "name": "descend-2",
+      "rect": [224, 0, 32, 32]
+    },
+    {
+      "name": "descend-3",
+      "rect": [224, 32, 32, 32]
+    },
+    {
+      "name": "square",
+      "rect": [64, 224, 32, 32]
+    },
+    {
+      "name": "square-up",
+      "rect": [96, 224, 32, 32]
+    },
+    {
+      "name": "square-down",
+      "rect": [32, 224, 32, 32]
+    },
+    {
+      "name": "circle",
+      "rect": [64, 64, 32, 32]
+    },
+    {
+      "name": "circle-up",
+      "rect": [96, 64, 32, 32]
+    },
+    {
+      "name": "circle-down",
+      "rect": [32, 64, 32, 32]
+    },
+
+    {
+      "name": "red-fly-1",
+      "rect": [128, 160, 32, 32]
+    },
+    {
+      "name": "red-fly-2",
+      "rect": [160, 160, 32, 32]
+    },
+    {
+      "name": "red-fly-3",
+      "rect": [192, 160, 32, 32]
+    },
+    {
+      "name": "red-ascend-1",
+      "rect": [0, 192, 32, 32]
+    },
+    {
+      "name": "red-ascend-2",
+      "rect": [32, 192, 32, 32]
+    },
+    {
+      "name": "red-ascend-3",
+      "rect": [64, 192, 32, 32]
+    },
+    {
+      "name": "red-descend-1",
+      "rect": [32, 160, 32, 32]
+    },
+    {
+      "name": "red-descend-2",
+      "rect": [64, 160, 32, 32]
+    },
+    {
+      "name": "red-descend-3",
+      "rect": [96, 160, 32, 32]
+    },
+    {
+      "name": "red-square",
+      "rect": [128, 192, 32, 32]
+    },
+    {
+      "name": "red-square-up",
+      "rect": [160, 192, 32, 32]
+    },
+    {
+      "name": "red-square-down",
+      "rect": [96, 192, 32, 32]
+    },
+    {
+      "name": "red-circle",
+      "rect": [192, 128, 32, 32]
+    },
+    {
+      "name": "red-circle-up",
+      "rect": [0, 160, 32, 32]
+    },
+    {
+      "name": "red-circle-down",
+      "rect": [160, 128, 32, 32]
+    },
+
+    {
+      "name": "blue-fly-1",
+      "rect": [192, 0, 32, 32]
+    },
+    {
+      "name": "blue-fly-2",
+      "rect": [0, 32, 32, 32]
+    },
+    {
+      "name": "blue-fly-3",
+      "rect": [32, 32, 32, 32]
+    },
+    {
+      "name": "blue-ascend-1",
+      "rect": [64, 32, 32, 32]
+    },
+    {
+      "name": "blue-ascend-2",
+      "rect": [96, 32, 32, 32]
+    },
+    {
+      "name": "blue-ascend-3",
+      "rect": [128, 32, 32, 32]
+    },
+    {
+      "name": "blue-descend-1",
+      "rect": [96, 0, 32, 32]
+    },
+    {
+      "name": "blue-descend-2",
+      "rect": [128, 0, 32, 32]
+    },
+    {
+      "name": "blue-descend-3",
+      "rect": [160, 0, 32, 32]
+    },
+    {
+      "name": "blue-square",
+      "rect": [192, 32, 32, 32]
+    },
+    {
+      "name": "blue-square-up",
+      "rect": [0, 64, 32, 32]
+    },
+    {
+      "name": "blue-square-down",
+      "rect": [160, 32, 32, 32]
+    },
+    {
+      "name": "blue-circle",
+      "rect": [32, 0, 32, 32]
+    },
+    {
+      "name": "blue-circle-up",
+      "rect": [64, 0, 32, 32]
+    },
+    {
+      "name": "blue-circle-down",
+      "rect": [0, 0, 32, 32]
+    },
+
+    {
+      "name": "green-fly-1",
+      "rect": [96, 96, 32, 32]
+    },
+    {
+      "name": "green-fly-2",
+      "rect": [128, 96, 32, 32]
+    },
+    {
+      "name": "green-fly-3",
+      "rect": [160, 96, 32, 32]
+    },
+    {
+      "name": "green-ascend-1",
+      "rect": [192, 96, 32, 32]
+    },
+    {
+      "name": "green-ascend-2",
+      "rect": [0, 128, 32, 32]
+    },
+    {
+      "name": "green-ascend-3",
+      "rect": [32, 128, 32, 32]
+    },
+    {
+      "name": "green-descend-1",
+      "rect": [0, 96, 32, 32]
+    },
+    {
+      "name": "green-descend-2",
+      "rect": [32, 96, 32, 32]
+    },
+    {
+      "name": "green-descend-3",
+      "rect": [64, 96, 32, 32]
+    },
+    {
+      "name": "green-square",
+      "rect": [96, 128, 32, 32]
+    },
+    {
+      "name": "green-square-up",
+      "rect": [128, 128, 32, 32]
+    },
+    {
+      "name": "green-square-down",
+      "rect": [64, 128, 32, 32]
+    },
+    {
+      "name": "green-circle",
+      "rect": [160, 64, 32, 32]
+    },
+    {
+      "name": "green-circle-up",
+      "rect": [192, 64, 32, 32]
+    },
+    {
+      "name": "green-circle-down",
+      "rect": [128, 64, 32, 32]
+    }
+  ],
+
+  "animations": [
+    {
+      "name": "fly",
+      "frameLen": 6,
+      "frames": [
+        "fly-1",
+        "fly-2",
+        "fly-3",
+        "fly-3",
+        "fly-2",
+        "fly-1"
+      ]
+    },
+    {
+      "name": "ascend",
+      "frameLen": 6,
+      "frames": [
+        "ascend-1",
+        "ascend-2",
+        "ascend-3",
+        "ascend-3",
+        "ascend-2",
+        "ascend-1"
+      ]
+    },
+    {
+      "name": "descend",
+      "frameLen": 6,
+      "frames": [
+        "descend-1",
+        "descend-2",
+        "descend-3",
+        "descend-3",
+        "descend-2",
+        "descend-1"
+      ]
+    },
+    {
+      "name": "red-fly",
+      "frameLen": 6,
+      "frames": [
+        "red-fly-1",
+        "red-fly-2",
+        "red-fly-3",
+        "red-fly-3",
+        "red-fly-2",
+        "red-fly-1"
+      ]
+    },
+    {
+      "name": "red-ascend",
+      "frameLen": 6,
+      "frames": [
+        "red-ascend-1",
+        "red-ascend-2",
+        "red-ascend-3",
+        "red-ascend-3",
+        "red-ascend-2",
+        "red-ascend-1"
+      ]
+    },
+    {
+      "name": "red-descend",
+      "frameLen": 6,
+      "frames": [
+        "red-descend-1",
+        "red-descend-2",
+        "red-descend-3",
+        "red-descend-3",
+        "red-descend-2",
+        "red-descend-1"
+      ]
+    },
+    {
+      "name": "green-fly",
+      "frameLen": 6,
+      "frames": [
+        "green-fly-1",
+        "green-fly-2",
+        "green-fly-3",
+        "green-fly-3",
+        "green-fly-2",
+        "green-fly-1"
+      ]
+    },
+    {
+      "name": "green-ascend",
+      "frameLen": 6,
+      "frames": [
+        "green-ascend-1",
+        "green-ascend-2",
+        "green-ascend-3",
+        "green-ascend-3",
+        "green-ascend-2",
+        "green-ascend-1"
+      ]
+    },
+    {
+      "name": "green-descend",
+      "frameLen": 6,
+      "frames": [
+        "green-descend-1",
+        "green-descend-2",
+        "green-descend-3",
+        "green-descend-3",
+        "green-descend-2",
+        "green-descend-1"
+      ]
+    },
+    {
+      "name": "blue-fly",
+      "frameLen": 6,
+      "frames": [
+        "blue-fly-1",
+        "blue-fly-2",
+        "blue-fly-3",
+        "blue-fly-3",
+        "blue-fly-2",
+        "blue-fly-1"
+      ]
+    },
+    {
+      "name": "blue-ascend",
+      "frameLen": 6,
+      "frames": [
+        "blue-ascend-1",
+        "blue-ascend-2",
+        "blue-ascend-3",
+        "blue-ascend-3",
+        "blue-ascend-2",
+        "blue-ascend-1"
+      ]
+    },
+    {
+      "name": "blue-descend",
+      "frameLen": 6,
+      "frames": [
+        "blue-descend-1",
+        "blue-descend-2",
+        "blue-descend-3",
+        "blue-descend-3",
+        "blue-descend-2",
+        "blue-descend-1"
+      ]
+    },
+    {
+      "name": "square",
+      "frameLen": 1,
+      "frames": [
+        "square"
+      ]
+    },
+    {
+      "name": "square-down",
+      "frameLen": 1,
+      "frames": [
+        "square-down"
+      ]
+    },
+    {
+      "name": "square-up",
+      "frameLen": 1,
+      "frames": [
+        "square-up"
+      ]
+    },
+    {
+      "name": "circle",
+      "frameLen": 1,
+      "frames": [
+        "circle"
+      ]
+    },
+    {
+      "name": "circle-down",
+      "frameLen": 1,
+      "frames": [
+        "circle-down"
+      ]
+    },
+    {
+      "name": "circle-up",
+      "frameLen": 1,
+      "frames": [
+        "circle-up"
+      ]
+    },
+    {
+      "name": "red-square",
+      "frameLen": 1,
+      "frames": [
+        "red-square"
+      ]
+    },
+    {
+      "name": "red-square-down",
+      "frameLen": 1,
+      "frames": [
+        "red-square-down"
+      ]
+    },
+    {
+      "name": "red-square-up",
+      "frameLen": 1,
+      "frames": [
+        "red-square-up"
+      ]
+    },
+    {
+      "name": "red-circle",
+      "frameLen": 1,
+      "frames": [
+        "red-circle"
+      ]
+    },
+    {
+      "name": "red-circle-down",
+      "frameLen": 1,
+      "frames": [
+        "red-circle-down"
+      ]
+    },
+    {
+      "name": "red-circle-up",
+      "frameLen": 1,
+      "frames": [
+        "red-circle-up"
+      ]
+    },
+    {
+      "name": "green-square",
+      "frameLen": 1,
+      "frames": [
+        "green-square"
+      ]
+    },
+    {
+      "name": "green-square-down",
+      "frameLen": 1,
+      "frames": [
+        "green-square-down"
+      ]
+    },
+    {
+      "name": "green-square-up",
+      "frameLen": 1,
+      "frames": [
+        "green-square-up"
+      ]
+    },
+    {
+      "name": "green-circle",
+      "frameLen": 1,
+      "frames": [
+        "green-circle"
+      ]
+    },
+    {
+      "name": "green-circle-down",
+      "frameLen": 1,
+      "frames": [
+        "green-circle-down"
+      ]
+    },
+    {
+      "name": "green-circle-up",
+      "frameLen": 1,
+      "frames": [
+        "green-circle-up"
+      ]
+    },
+    {
+      "name": "blue-square",
+      "frameLen": 1,
+      "frames": [
+        "blue-square"
+      ]
+    },
+    {
+      "name": "blue-square-down",
+      "frameLen": 1,
+      "frames": [
+        "blue-square-down"
+      ]
+    },
+    {
+      "name": "blue-square-up",
+      "frameLen": 1,
+      "frames": [
+        "blue-square-up"
+      ]
+    },
+    {
+      "name": "blue-circle",
+      "frameLen": 1,
+      "frames": [
+        "blue-circle"
+      ]
+    },
+    {
+      "name": "blue-circle-down",
+      "frameLen": 1,
+      "frames": [
+        "blue-circle-down"
+      ]
+    },
+    {
+      "name": "blue-circle-up",
+      "frameLen": 1,
+      "frames": [
+        "blue-circle-up"
+      ]
+    }
+
+  ]
+}

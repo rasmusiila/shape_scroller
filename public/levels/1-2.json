@@ -1,0 +1,474 @@
+{
+  "spritesheet": "tile-def",
+  "layers": [
+    {
+      "tiles": [
+        {
+          "name": "sky",
+          "ranges": [
+            [
+              0,
+              212,
+              0,
+              15
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "tiles": [
+        {
+          "name": "sun",
+          "type": "sun",
+          "ranges": [
+            [
+              200,
+              15,
+              0,
+              15
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "tiles": [
+        {
+          "name": "grass",
+          "ranges": [
+            [
+              0,
+              212,
+              14,
+              15
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "tiles": [
+        {
+          "name": "cloud",
+          "ranges": [
+            [
+              0,
+              212,
+              0,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+
+    {
+      "tiles": [
+        {
+          "pattern": "pillar-middle-red",
+          "ranges": [
+            [
+              20, 0
+            ]
+          ]
+        },
+        {
+          "pattern": "pillar-middle-blue",
+          "ranges": [
+            [
+              40, 0
+            ]
+          ]
+        },
+        {
+          "pattern": "pillar-middle-green",
+          "ranges": [
+            [
+              50, 0
+            ]
+          ]
+        },
+        {
+          "pattern": "pillar-top-green",
+          "ranges": [
+            [
+              60, 0
+            ]
+          ]
+        },
+        {
+          "pattern": "pillar-middle-blue",
+          "ranges": [
+            [
+              70, 0
+            ]
+          ]
+        },
+        {
+          "pattern": "pillar-middle-green",
+          "ranges": [
+            [
+              80, 0
+            ]
+          ]
+        },
+        {
+          "pattern": "pillar-bottom-red",
+          "ranges": [
+            [
+              90, 0
+            ]
+          ]
+        },
+        {
+          "pattern": "pillar-top-blue",
+          "ranges": [
+            [
+              100, 0
+            ]
+          ]
+        },
+        {
+          "pattern": "pillar-middle-green",
+          "ranges": [
+            [
+              110, 0
+            ]
+          ]
+        },
+        {
+          "pattern": "pillar-top-green",
+          "ranges": [
+            [
+              120, 0
+            ]
+          ]
+        },
+        {
+          "pattern": "pillar-bottom-blue",
+          "ranges": [
+            [
+              130, 0
+            ]
+          ]
+        },
+        {
+          "pattern": "pillar-bottom-red",
+          "ranges": [
+            [
+              140, 0
+            ]
+          ]
+        },
+        {
+          "pattern": "pillar-middle-blue",
+          "ranges": [
+            [
+              150, 0
+            ]
+          ]
+        },
+        {
+          "pattern": "pillar-top-green",
+          "ranges": [
+            [
+              160, 0
+            ]
+          ]
+        },
+        {
+          "pattern": "pillar-bottom-green",
+          "ranges": [
+            [
+              170, 0
+            ]
+          ]
+        },
+        {
+          "pattern": "pillar-top-red",
+          "ranges": [
+            [
+              180, 0
+            ]
+          ]
+        },
+        {
+          "pattern": "pillar-middle-blue",
+          "ranges": [
+            [
+              190, 0
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+
+  "patterns": {
+    "pillar-top-red": {
+      "tiles": [
+        {
+          "name": "wood",
+          "type": "ground",
+          "ranges": [
+            [0, 1, 0, 2],
+            [0, 1, 6, 9]
+          ]
+        },
+        {
+          "name": "pillar-red",
+          "type": "ground",
+          "ranges": [
+            [0, 2],
+            [0, 5]
+          ]
+        },
+        {
+          "name": "gate-red",
+          "type": "portal",
+          "color": "red",
+          "ranges": [
+            [0, 3],
+            [0, 4]
+          ]
+        }
+      ]
+    },
+    "pillar-middle-red": {
+      "tiles": [
+        {
+          "name": "wood",
+          "type": "ground",
+          "ranges": [
+            [0, 1, 0, 6],
+            [0, 1, 10, 5]
+          ]
+        },
+        {
+          "name": "pillar-red",
+          "type": "ground",
+          "ranges": [
+            [0, 6],
+            [0, 9]
+          ]
+        },
+        {
+          "name": "gate-red",
+          "type": "portal",
+          "color": "red",
+          "ranges": [
+            [0, 7],
+            [0, 8]
+          ]
+        }
+      ]
+    },
+    "pillar-bottom-red": {
+      "tiles": [
+        {
+          "name": "wood",
+          "type": "ground",
+          "ranges": [
+            [0, 1, 0, 10],
+            [0, 1, 14, 1]
+          ]
+        },
+        {
+          "name": "pillar-red",
+          "type": "ground",
+          "ranges": [
+            [0, 10],
+            [0, 13]
+          ]
+        },
+        {
+          "name": "gate-red",
+          "type": "portal",
+          "color": "red",
+          "ranges": [
+            [0, 11],
+            [0, 12]
+          ]
+        }
+      ]
+    },
+    "pillar-top-green": {
+      "tiles": [
+        {
+          "name": "wood",
+          "type": "ground",
+          "ranges": [
+            [0, 1, 0, 2],
+            [0, 1, 6, 9]
+          ]
+        },
+        {
+          "name": "pillar-green",
+          "type": "ground",
+          "ranges": [
+            [0, 2],
+            [0, 5]
+          ]
+        },
+        {
+          "name": "gate-green",
+          "type": "portal",
+          "color": "green",
+          "ranges": [
+            [0, 3],
+            [0, 4]
+          ]
+        }
+      ]
+    },
+    "pillar-middle-green": {
+      "tiles": [
+        {
+          "name": "wood",
+          "type": "ground",
+          "ranges": [
+            [0, 1, 0, 6],
+            [0, 1, 10, 5]
+          ]
+        },
+        {
+          "name": "pillar-green",
+          "type": "ground",
+          "ranges": [
+            [0, 6],
+            [0, 9]
+          ]
+        },
+        {
+          "name": "gate-green",
+          "type": "portal",
+          "color": "green",
+          "ranges": [
+            [0, 7],
+            [0, 8]
+          ]
+        }
+      ]
+    },
+    "pillar-bottom-green": {
+      "tiles": [
+        {
+          "name": "wood",
+          "type": "ground",
+          "ranges": [
+            [0, 1, 0, 10],
+            [0, 1, 14, 1]
+          ]
+        },
+        {
+          "name": "pillar-green",
+          "type": "ground",
+          "ranges": [
+            [0, 10],
+            [0, 13]
+          ]
+        },
+        {
+          "name": "gate-green",
+          "type": "portal",
+          "color": "green",
+          "ranges": [
+            [0, 11],
+            [0, 12]
+          ]
+        }
+      ]
+    },
+    "pillar-top-blue": {
+      "tiles": [
+        {
+          "name": "wood",
+          "type": "ground",
+          "ranges": [
+            [0, 1, 0, 2],
+            [0, 1, 6, 9]
+          ]
+        },
+        {
+          "name": "pillar-blue",
+          "type": "ground",
+          "ranges": [
+            [0, 2],
+            [0, 5]
+          ]
+        },
+        {
+          "name": "gate-blue",
+          "type": "portal",
+          "color": "blue",
+          "ranges": [
+            [0, 3],
+            [0, 4]
+          ]
+        }
+      ]
+    },
+    "pillar-middle-blue": {
+      "tiles": [
+        {
+          "name": "wood",
+          "type": "ground",
+          "ranges": [
+            [0, 1, 0, 6],
+            [0, 1, 10, 5]
+          ]
+        },
+        {
+          "name": "pillar-blue",
+          "type": "ground",
+          "ranges": [
+            [0, 6],
+            [0, 9]
+          ]
+        },
+        {
+          "name": "gate-blue",
+          "type": "portal",
+          "color": "blue",
+          "ranges": [
+            [0, 7],
+            [0, 8]
+          ]
+        }
+      ]
+    },
+    "pillar-bottom-blue": {
+      "tiles": [
+        {
+          "name": "wood",
+          "type": "ground",
+          "ranges": [
+            [0, 1, 0, 10],
+            [0, 1, 14, 1]
+          ]
+        },
+        {
+          "name": "pillar-blue",
+          "type": "ground",
+          "ranges": [
+            [0, 10],
+            [0, 13]
+          ]
+        },
+        {
+          "name": "gate-blue",
+          "type": "portal",
+          "color": "blue",
+          "ranges": [
+            [0, 11],
+            [0, 12]
+          ]
+        }
+      ]
+    }
+  },
+  "entities": [
+
+  ]
+}

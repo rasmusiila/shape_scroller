@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shape Scroller</title>
+    <style>
+        body {
+            background: #000;
+            margin: 0;
+            text-align: center;
+            font-family: Courier, sans-serif;
+        }
+
+        #screen, #leftSide, #rightSide {
+            display: block;
+            image-rendering: pixelated;
+            image-rendering: -moz-crisp-edges;
+            image-rendering: crisp-edges;
+            height: 100vh;
+            margin: auto;
+        }
+
+        div {
+            display: inline-block;
+        }
+
+        .middle {
+            margin: 0 auto;
+        }
+
+        .attribution-block {
+            color: white;
+            font-size: 8px;
+        }
+
+        #main, #level-select, #credits-screen {
+            display: none;
+            height: 60%;
+            overflow: hidden;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+        }
+
+        h1 {
+            color: white;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        }
+
+        /**, *:before, *:after {*/
+            /*box-sizing: border-box;*/
+        /*}*/
+
+        .button {
+            display: block;
+            width: 60%;
+            margin: 0 auto;
+            height: 10%;
+            line-height: 30px;
+            border: 1px solid #633b04;
+            color: white;
+            font-weight: bold;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+            background-color: #c25a09;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        #back {
+            width: auto;
+            height: auto;
+            padding: 0 5px;
+        }
+
+        #back-div {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        #score-div {
+            display: none;
+            position: absolute;
+            top: 5%;
+            left: 5%;
+        }
+
+        .button:hover {
+            background-color: #c25a09;
+            background-image: -webkit-linear-gradient(bottom, #c25a09 0%, #d55c04 100%);
+            background-image: linear-gradient(to bottom, #c25a09 0%, #d55c04 100%);
+        }
+
+        #game {
+            overflow: hidden;
+            position: relative;
+        }
+
+        ul {
+            padding: 0;
+            list-style-type: none;
+        }
+
+        #game-over, #space-start, #game-win {
+            display: none;
+            text-align: center;
+            padding-top: 0px;
+            z-index: 1;
+            width: 50%;
+            height: 60%;
+            overflow: hidden;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+        }
+
+        #menu {
+            background-image: url('img/background.png');
+            background-size: cover;
+            /*background-color: purple;*/
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    </style>
+    <script type="module" src="js/main.js"></script>
+</head>
+<body>
+<div class="middle">
+    <div>
+        <canvas id="leftSide" width="32" height="240"></canvas>
+    </div>
+    <div id="game">
+        <div id="menu" class="main">
+            <div id="main">
+                <h1>Shape Scroller</h1>
+                <ul>
+                    <li><a href="#" class="button" id="play">Start Game</a></li>
+                    <li><a href="#" class="button" id="credits">Credits</a></li>
+                </ul>
+            </div>
+        </div>
+        <canvas id="screen" width="256" height="240"></canvas>
+        <div id="game-over">
+            <h1>You got a score of <span id="score"></span></h1>
+            <a href="#" class="button" id="restart">Try again?</a>
+            <a href="#" class="button" id="menuButton">Menu</a>
+        </div>
+        <div id="game-win">
+            <h1>Level Complete!</h1>
+            <h1>You got a score of <span id="win-score"></span></h1>
+            <a href="#" class="button" id="winMenuButton">Menu</a>
+        </div>
+        <div id="space-start">
+            <h1>Press SPACE to start</h1>
+        </div>
+        <div id="level-select">
+            <a href="#" class="button" id="1-1">1-1 - lanes</a>
+            <a href="#" class="button" id="1-2">1-2 - colors</a>
+            <a href="#" class="button" id="1-3">1-3 - shapes</a>
+            <a href="#" class="button" id="1-4">1-4 - everything</a>
+            <a href="#" class="button" id="generate">Generate random</a>
+        </div>
+        <div id="credits-screen">
+            <h2>Sounds</h2>
+            <h3>http://soundbible.com</h3>
+            <h3>http://dig.ccmixter.org</h3>
+            <h3>https://www.zapsplat.com</h3>
+            <h2>Special thanks to</h2>
+            <h3>https://github.com/meth-meth-method</h3>
+        </div>
+        <div id="back-div">
+            <a href="#" class="button" id="back">Back</a>
+        </div>
+        <div id="score-div">
+            <h2>SCORE: <span id="score-span"></span></h2>
+        </div>
+    </div>
+    <div>
+        <canvas id="rightSide" width="32" height="240"></canvas>
+    </div>
+</div>
+<div class="attribution-block">
+    <a href="http://dig.ccmixter.org/files/airtone/58703">commonGround</a>
+    by airtone (c) copyright 2018 Licensed under a Creative Commons
+    <a href="http://creativecommons.org/licenses/by-nc/3.0/">Attribution Noncommercial (3.0)</a>
+    license.
+</div>
+</body>
+</html>

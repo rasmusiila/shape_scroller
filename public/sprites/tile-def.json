@@ -1,0 +1,92 @@
+{
+  "imageURL": "/img/tiles.png",
+  "tileW": 16,
+  "tileH": 16,
+
+  "tiles": [
+    {
+      "name": "wood",
+      "index": [4, 2]
+    },
+    {
+      "name": "grass",
+      "index": [0, 1]
+    },
+    {
+      "name": "cloud",
+      "index": [0, 0]
+    },
+    {
+      "name": "pillar-blue",
+      "index": [1, 0]
+    },
+    {
+      "name": "pillar-green",
+      "index": [2, 0]
+    },
+    {
+      "name": "pillar-red",
+      "index": [3, 0]
+    },
+    {
+      "name": "gate-blue",
+      "index": [1, 1]
+    },
+    {
+      "name": "gate-green",
+      "index": [1, 2]
+    },
+    {
+      "name": "gate-red",
+      "index": [1, 3]
+    },
+    {
+      "name": "gate-blue-cloud",
+      "index": [3, 1]
+    },
+    {
+      "name": "gate-green-cloud",
+      "index": [3, 2]
+    },
+    {
+      "name": "gate-red-cloud",
+      "index": [3, 3]
+    },
+    {
+      "name": "gate-blue-square",
+      "index": [0, 2]
+    },
+    {
+      "name": "gate-green-square",
+      "index": [0, 3]
+    },
+    {
+      "name": "gate-red-square",
+      "index": [4, 0]
+    },
+    {
+      "name": "gate-blue-circle",
+      "index": [2, 1]
+    },
+    {
+      "name": "gate-green-circle",
+      "index": [2, 2]
+    },
+    {
+      "name": "gate-red-circle",
+      "index": [2, 3]
+    },
+    {
+      "name": "sky",
+      "index": [4, 1]
+    },
+    {
+      "name": "sun",
+      "index": [4, 3]
+    }
+  ],
+
+  "animations": [
+
+  ]
+}

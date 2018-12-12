@@ -1,0 +1,476 @@
+{
+  "spritesheet": "tile-def",
+  "layers": [
+    {
+      "tiles": [
+        {
+          "name": "sky",
+          "ranges": [
+            [
+              0,
+              212,
+              0,
+              15
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "tiles": [
+        {
+          "name": "sun",
+          "type": "sun",
+          "ranges": [
+            [
+              200,
+              15,
+              0,
+              15
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "tiles": [
+        {
+          "name": "grass",
+          "ranges": [
+            [
+              0,
+              212,
+              14,
+              15
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "tiles": [
+        {
+          "name": "cloud",
+          "ranges": [
+            [
+              0,
+              212,
+              0,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+
+    {
+      "tiles": [
+        {
+          "pattern": "pillar-middle-red-cloud",
+          "ranges": [
+            [
+              20, 0
+            ]
+          ]
+        },
+        {
+          "pattern": "pillar-middle-red-square",
+          "ranges": [
+            [
+              40, 0
+            ]
+          ]
+        },
+        {
+          "pattern": "pillar-middle-red-circle",
+          "ranges": [
+            [
+              60, 0
+            ]
+          ]
+        },
+        {
+          "pattern": "pillar-top-red-square",
+          "ranges": [
+            [
+              70, 0
+            ]
+          ]
+        },
+        {
+          "pattern": "pillar-middle-red-circle",
+          "ranges": [
+            [
+              80, 0
+            ]
+          ]
+        },
+        {
+          "pattern": "pillar-middle-red-cloud",
+          "ranges": [
+            [
+              90, 0
+            ]
+          ]
+        },
+        {
+          "pattern": "pillar-bottom-red-circle",
+          "ranges": [
+            [
+              100, 0
+            ]
+          ]
+        },
+        {
+          "pattern": "pillar-top-red-cloud",
+          "ranges": [
+            [
+              110, 0
+            ]
+          ]
+        },
+        {
+          "pattern": "pillar-top-red-square",
+          "ranges": [
+            [
+              120, 0
+            ]
+          ]
+        },
+        {
+          "pattern": "pillar-bottom-red-cloud",
+          "ranges": [
+            [
+              130, 0
+            ]
+          ]
+        },
+        {
+          "pattern": "pillar-middle-red-circle",
+          "ranges": [
+            [
+              140, 0
+            ]
+          ]
+        },
+        {
+          "pattern": "pillar-top-red-circle",
+          "ranges": [
+            [
+              150, 0
+            ]
+          ]
+        },{
+          "pattern": "pillar-bottom-red-square",
+          "ranges": [
+            [
+              160, 0
+            ]
+          ]
+        },
+        {
+          "pattern": "pillar-top-red-cloud",
+          "ranges": [
+            [
+              170, 0
+            ]
+          ]
+        },
+        {
+          "pattern": "pillar-middle-red-square",
+          "ranges": [
+            [
+              180, 0
+            ]
+          ]
+        },
+        {
+          "pattern": "pillar-top-red-circle",
+          "ranges": [
+            [
+              190, 0
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+
+  "patterns": {
+    "pillar-top-red-cloud": {
+      "tiles": [
+        {
+          "name": "wood",
+          "type": "ground",
+          "ranges": [
+            [0, 1, 0, 2],
+            [0, 1, 6, 9]
+          ]
+        },
+        {
+          "name": "pillar-red",
+          "type": "ground",
+          "ranges": [
+            [0, 2],
+            [0, 5]
+          ]
+        },
+        {
+          "name": "gate-red-cloud",
+          "type": "portal",
+          "color": "red",
+          "shape": "cloud",
+          "ranges": [
+            [0, 3],
+            [0, 4]
+          ]
+        }
+      ]
+    },
+    "pillar-middle-red-cloud": {
+      "tiles": [
+        {
+          "name": "wood",
+          "type": "ground",
+          "ranges": [
+            [0, 1, 0, 6],
+            [0, 1, 10, 5]
+          ]
+        },
+        {
+          "name": "pillar-red",
+          "type": "ground",
+          "ranges": [
+            [0, 6],
+            [0, 9]
+          ]
+        },
+        {
+          "name": "gate-red-cloud",
+          "type": "portal",
+          "color": "red",
+          "shape": "cloud",
+          "ranges": [
+            [0, 7],
+            [0, 8]
+          ]
+        }
+      ]
+    },
+    "pillar-bottom-red-cloud": {
+      "tiles": [
+        {
+          "name": "wood",
+          "type": "ground",
+          "ranges": [
+            [0, 1, 0, 10],
+            [0, 1, 14, 1]
+          ]
+        },
+        {
+          "name": "pillar-red",
+          "type": "ground",
+          "ranges": [
+            [0, 10],
+            [0, 13]
+          ]
+        },
+        {
+          "name": "gate-red-cloud",
+          "type": "portal",
+          "color": "red",
+          "shape": "cloud",
+          "ranges": [
+            [0, 11],
+            [0, 12]
+          ]
+        }
+      ]
+    },
+
+    "pillar-top-red-square": {
+      "tiles": [
+        {
+          "name": "wood",
+          "type": "ground",
+          "ranges": [
+            [0, 1, 0, 2],
+            [0, 1, 6, 9]
+          ]
+        },
+        {
+          "name": "pillar-red",
+          "type": "ground",
+          "ranges": [
+            [0, 2],
+            [0, 5]
+          ]
+        },
+        {
+          "name": "gate-red-square",
+          "type": "portal",
+          "color": "red",
+          "shape": "square",
+          "ranges": [
+            [0, 3],
+            [0, 4]
+          ]
+        }
+      ]
+    },
+    "pillar-middle-red-square": {
+      "tiles": [
+        {
+          "name": "wood",
+          "type": "ground",
+          "ranges": [
+            [0, 1, 0, 6],
+            [0, 1, 10, 5]
+          ]
+        },
+        {
+          "name": "pillar-red",
+          "type": "ground",
+          "ranges": [
+            [0, 6],
+            [0, 9]
+          ]
+        },
+        {
+          "name": "gate-red-square",
+          "type": "portal",
+          "color": "red",
+          "shape": "square",
+          "ranges": [
+            [0, 7],
+            [0, 8]
+          ]
+        }
+      ]
+    },
+    "pillar-bottom-red-square": {
+      "tiles": [
+        {
+          "name": "wood",
+          "type": "ground",
+          "ranges": [
+            [0, 1, 0, 10],
+            [0, 1, 14, 1]
+          ]
+        },
+        {
+          "name": "pillar-red",
+          "type": "ground",
+          "ranges": [
+            [0, 10],
+            [0, 13]
+          ]
+        },
+        {
+          "name": "gate-red-square",
+          "type": "portal",
+          "color": "red",
+          "shape": "square",
+          "ranges": [
+            [0, 11],
+            [0, 12]
+          ]
+        }
+      ]
+    },
+
+    "pillar-top-red-circle": {
+      "tiles": [
+        {
+          "name": "wood",
+          "type": "ground",
+          "ranges": [
+            [0, 1, 0, 2],
+            [0, 1, 6, 9]
+          ]
+        },
+        {
+          "name": "pillar-red",
+          "type": "ground",
+          "ranges": [
+            [0, 2],
+            [0, 5]
+          ]
+        },
+        {
+          "name": "gate-red-circle",
+          "type": "portal",
+          "color": "red",
+          "shape": "circle",
+          "ranges": [
+            [0, 3],
+            [0, 4]
+          ]
+        }
+      ]
+    },
+    "pillar-middle-red-circle": {
+      "tiles": [
+        {
+          "name": "wood",
+          "type": "ground",
+          "ranges": [
+            [0, 1, 0, 6],
+            [0, 1, 10, 5]
+          ]
+        },
+        {
+          "name": "pillar-red",
+          "type": "ground",
+          "ranges": [
+            [0, 6],
+            [0, 9]
+          ]
+        },
+        {
+          "name": "gate-red-circle",
+          "type": "portal",
+          "color": "red",
+          "shape": "circle",
+          "ranges": [
+            [0, 7],
+            [0, 8]
+          ]
+        }
+      ]
+    },
+    "pillar-bottom-red-circle": {
+      "tiles": [
+        {
+          "name": "wood",
+          "type": "ground",
+          "ranges": [
+            [0, 1, 0, 10],
+            [0, 1, 14, 1]
+          ]
+        },
+        {
+          "name": "pillar-red",
+          "type": "ground",
+          "ranges": [
+            [0, 10],
+            [0, 13]
+          ]
+        },
+        {
+          "name": "gate-red-circle",
+          "type": "portal",
+          "color": "red",
+          "shape": "circle",
+          "ranges": [
+            [0, 11],
+            [0, 12]
+          ]
+        }
+      ]
+    }
+  },
+  "entities": [
+
+  ]
+}
