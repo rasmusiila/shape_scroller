@@ -30,7 +30,7 @@ async function main(canvas) {
     const entityFactory = await loadEntities();
     const loadLevel = await createLevelLoader(entityFactory);
 
-    const music = new Audio('../../sounds/music.mp3');
+    const music = new Audio('sounds/music.mp3');
     music.volume = 0.5;
     music.addEventListener('ended', function () {
         this.currentTime = 0;
