@@ -8,11 +8,11 @@ function playSound(s) {
 }
 
 function swoosh() {
-    playSound('../../sounds/swoosh.mp3');
+    playSound('sounds/swoosh.mp3');
 }
 
 function click() {
-    playSound('../../sounds/click.mp3');
+    playSound('sounds/click.mp3');
 }
 
 export function setupKeyboard(player, sideBarDrawer) {

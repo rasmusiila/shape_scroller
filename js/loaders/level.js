@@ -35,7 +35,7 @@ function setupEntities(levelSpec, level, entityFactory) {
 }
 
 export function loadJsonFileToObject(name) {
-    return loadJson(`/levels/${name}.json`)
+    return loadJson(`levels/${name}.json`)
         .then(levelSpec => {
             return levelSpec;
         });
