@@ -8,6 +8,7 @@ export function loadImage(url) {
             resolve(image);
         });
         console.log(url);
+        console.log('ok');
         image.src = url;
     });
 }
